@@ -1,6 +1,7 @@
 fullScreen();
 int appW = displayWidth;
 int appH = displayHeight;
+println(appW," ",appH);
 int paperW = 11;
 int paperH = 16;
 
