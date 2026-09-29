@@ -18,7 +18,7 @@ float playercH=appH*6/paperH;
 rect(0,playercY,playercW,playercH);//playerContainer
 
 fill(255);
-float durX=appW*2/paperW;
+float durX=appW*1.75/paperW;
 float durY=appH*11.5/paperH;
 float durW=appW*7.5/paperW;
 float durH=appH*.5/paperH;
@@ -66,7 +66,7 @@ float volumeW=appW*1/paperW;
 float volumeH=appH*1/paperH;
 rect(volumeX,volumeY,volumeW,volumeH);//Volume
 
-float speedX=appW*.5/paperW;
+float speedX=appW*.35/paperW;
 float speedY=appH*10/paperH;
 float speedW=appW*1/paperW;
 float speedH=appH*1/paperH;
@@ -85,7 +85,7 @@ float backH=appH*.5/paperH;
 rect(backX,backY,backW,backH);//Back
 
 float rewindX=appW*4/paperW;
-float rewindY=appH*12.5/paperH;
+float rewindY=appH*12.35/paperH;
 float rewindW=appW*.75/paperW;
 float rewindH=appH*.75/paperH;
 rect(rewindX,rewindY,rewindW,rewindH);//Rewind
@@ -97,7 +97,7 @@ float playH=appH*1/paperH;
 rect(playX,playY,playW,playH);//Play/Stop
 
 float forwardX=appW*6.25/paperW;
-float forwardY=appH*12.5/paperH;
+float forwardY=appH*12.35/paperH;
 float forwardW=appW*.75/paperW;
 float forwardH=appH*.75/paperH;
 rect(forwardX,forwardY,forwardW,forwardH);//Fast Forward
@@ -117,26 +117,26 @@ rect(shuffleX,shuffleY,shuffleW,shuffleH);//Shuffle
 //TEXT
 fill(180);
 
-float timeX=appW*2/paperW;
+float timeX=appW*1.75/paperW;
 float timeY=appH*10/paperH;
 float timeW=appW*1/paperW;
 float timeH=appH*1/paperH;
 rect(timeX,timeY,timeW,timeH);//Time in Song
 
-float ttimeX=appW*8.5/paperW;
+float ttimeX=appW*8.25/paperW;
 float ttimeY=appH*10/paperH;
 float ttimeW=appW*1/paperW;
 float ttimeH=appH*1/paperH;
 rect(ttimeX,ttimeY,ttimeW,ttimeH);//Total time in Song
 
-float anameX=appW*2.5/paperW;
-float anameY=appH*14.5/paperH;
+float anameX=appW*2.25/paperW;
+float anameY=appH*14/paperH;
 float anameW=appW*3.75/paperW;
 float anameH=appH*1/paperH;
 rect(anameX,anameY,anameW,anameH);//Artist Name
 
-float snameX=appW*6.5/paperW;
-float snameY=appH*14.5/paperH;
+float snameX=appW*6.25/paperW;
+float snameY=appH*14/paperH;
 float snameW=appW*3.75/paperW;
 float snameH=appH*1/paperH;
 rect(snameX,snameY,snameW,snameH);//Song Name
